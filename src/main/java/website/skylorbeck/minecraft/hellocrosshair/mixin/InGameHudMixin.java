@@ -45,8 +45,9 @@ public class InGameHudMixin {
             case MISS -> {
             }
             case BLOCK -> {
-                Block block = client.world.getBlockState(((BlockHitResult) hit).getBlockPos()).getBlock();
-                if (block.getDefaultState().hasBlockEntity()){
+                BlockState blockState = client.world.getBlockState(((BlockHitResult) hit).getBlockPos());
+                Block block = blockState.getBlock();
+                if (block.getDefaultState().hasBlockEntity()||block instanceof DoorBlock||block instanceof TrapdoorBlock||(block instanceof CropBlock && ((CropBlock)block).isMature(blockState))){
                     increaseState();
                 } else {
                     decreaseState();
