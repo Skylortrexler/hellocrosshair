@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "hellocrosshair",
+  "version": "1.0.1",
+  "name": "Hellocrosshair",
+  "description": "A simple crosshair mod",
+  "authors": [
+    "Skylorbeck"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "website.skylorbeck.minecraft.hellocrosshair.client.HellomouseClient"
+    ],
+    "main": [
+      "website.skylorbeck.minecraft.hellocrosshair.Hellomouse"
+    ]
+  },
+  "mixins": [
+    "hellocrosshair.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.11.6",
+    "fabric": "*",
+    "minecraft": "1.17.1"
+  }
+}

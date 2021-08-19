@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "website.skylorbeck.minecraft.hellocrosshair.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "InGameHudAccessor",
+    "InGameHudMixin"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
