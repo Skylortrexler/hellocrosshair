@@ -23,8 +23,8 @@
     "hellocrosshair.mixins.json"
   ],
   "depends": {
-    "fabricloader": ">=0.11.6",
+    "fabricloader": ">=0.13.3",
     "fabric": "*",
-    "minecraft": "1.18.1"
+    "minecraft": "1.18.2"
   }
 }
