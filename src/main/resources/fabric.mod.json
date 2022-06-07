@@ -1,14 +1,23 @@
 {
   "schemaVersion": 1,
-  "id": "hellocrosshair",
-  "version": "1.0.4",
-  "name": "Hellocrosshair",
-  "description": "A simple crosshair mod",
+  "id": "skylorlib",
+  "version": "$version",
+  "name": "SkyLib",
+  "description": "A library designed for use with all mods by Skylor Beck",
   "authors": [
-    "Skylorbeck"
+    "Skylor Beck",
+    "Patrons:",
+    "Striker99974",
+    "Dappersaur",
+    "Kynan"
   ],
-  "contact": {},
-  "license": "MIT",
+  "contact": {
+    "homepage": "https://www.skylorbeck.website",
+    "repo": "https://github.com/Skylortrexler/SkylorLib",
+    "sources": "https://github.com/Skylortrexler/SkylorLib",
+    "issues": "https://github.com/Skylortrexler/SkylorLib/issues"
+  },
+  "license": "LGPL-3.0",
   "icon": "assets/icon.png",
   "environment": "*",
   "entrypoints": {
@@ -20,11 +29,10 @@
     ]
   },
   "mixins": [
-    "hellocrosshair.mixins.json"
   ],
   "depends": {
-    "fabricloader": ">=0.13.3",
+    "fabricloader": ">=0.14.6",
     "fabric": "*",
-    "minecraft": "1.18.2"
+    "minecraft": ">=1.19"
   }
 }
