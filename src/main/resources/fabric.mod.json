@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
-  "id": "skylorlib",
-  "version": "$version",
-  "name": "SkyLib",
-  "description": "A library designed for use with all mods by Skylor Beck",
+  "id": "hellocrosshair",
+  "version": "1.0.4",
+  "name": "Hellocrosshair",
+  "description": "A simple crosshair mod",
   "authors": [
     "Skylor Beck",
     "Patrons:",
